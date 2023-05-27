@@ -1,114 +1,107 @@
-import { HStack, Text } from '@chakra-ui/react'
-
 export default {
   title: 'Pricing for every stage',
   description:
-    'Pay once and get life-time access to our high quality components.',
+      'Affordable plans tailored to your business size. Pay monthly based on the number of employees.',
   plans: [
     {
-      id: 'oss',
-      title: 'Open Source',
-      description: 'Basic compoents, perfect to get started.',
-      price: 'Free',
+      id: 'basic',
+      title: 'Basic',
+      description: 'Essential components, perfect to get started.',
+      price: '£2 per employee/month',
       features: [
         {
-          title: 'MIT License',
+          title: 'Employee Information Management',
         },
         {
-          title: 'Authentication (Clerk/Supabase/Magic)',
+          title: 'Shift Scheduling',
         },
         {
-          title: 'Form (react-hook-form)',
+          title: 'Availability Management',
         },
         {
-          title: 'Modals manager',
+          title: 'Shift Swapping',
         },
         {
-          title: 'Hotkeys',
+          title: 'Time and Attendance Management',
         },
         {
-          title: 'Web3 components',
+          title: 'Mobile Access',
         },
         {
-          title: 'And much more...',
+          title: 'Messaging System',
+        },
+        {
+          title: 'Shift Reminders',
         },
       ],
       action: {
-        href: '#',
+        href: '/signup/basic',
       },
     },
     {
-      id: 'bootstrap',
-      title: 'Bootstrap',
-      description: 'Complete frontend stack for bootstrappers and small teams.',
-      price: 'Free',
+      id: 'plus',
+      title: 'Plus',
+      description: 'Additional features for comprehensive shift management.',
+      price: '£4 per employee/month',
       isRecommended: true,
       features: [
         {
-          title: 'One project',
+          title: 'Everything in Basic',
         },
         {
-          title: 'One developer',
+          title: 'Leave Management',
         },
         {
-          title: 'Advanced components',
+          title: 'Employee Self-service',
         },
         {
-          title: 'Multiple themes',
+          title: 'Compliance Tracking',
         },
         {
-          title: 'Next.js and Electron boilerplates',
+          title: 'Shift Templates',
         },
         {
-          title: 'Private discord community',
-        },
-        {
-          title: '1 year of updates',
-        },
-        null,
-        {
-          title: 'Private beta access',
-          iconColor: 'green.500',
+          title: 'Auto-Scheduling',
         },
       ],
       action: {
-        href: 'https://appulse.gumroad.com/l/saas-ui-pro-pre-order?variant=Single%20license',
+        href: '/signup/plus',
       },
     },
     {
-      id: 'startup',
-      title: 'Startup',
-      description: 'Unlimited license for growing teams.',
-      price: (
-        <HStack>
-          <Text textDecoration="line-through" fontSize="sm" color="gray.400">
-            €999,-
-          </Text>
-          <Text>€499,-</Text>
-        </HStack>
-      ),
+      id: 'complete',
+      title: 'Complete',
+      description: 'Unlimited access to all features for advanced needs.',
+      price: '£6 per employee/month',
       features: [
         {
-          title: 'Unlimited projects',
+          title: 'Everything in Plus',
         },
         {
-          title: 'Unlimited developers',
+          title: 'Payroll Management',
         },
         {
-          title: '1 year of updates',
+          title: 'Integration with Other HR Systems',
         },
         {
-          title: 'Everything from Bootstrap',
+          title: 'Time-off Management',
         },
-        null,
         {
-          title: 'Private beta access',
-          iconColor: 'green.500',
+          title: 'Employee Profiles',
+        },
+        {
+          title: 'Customizable Reports',
+        },
+        {
+          title: 'Performance Reviews',
+        },
+        {
+          title: 'Geofencing',
         },
       ],
       action: {
-        href: 'https://appulse.gumroad.com/l/saas-ui-pro-pre-order?variant=Unlimited%20license',
+        href: '/signup/complete',
       },
     },
   ],
-}
+};

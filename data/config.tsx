@@ -1,15 +1,15 @@
 import { Button } from '@chakra-ui/react'
 import { Link } from '@saas-ui/react'
 import { NextSeoProps } from 'next-seo'
-import { FaGithub, FaTwitter } from 'react-icons/fa'
+import { FaFacebook, FaInstagram } from 'react-icons/fa'
 import { FiCheck } from 'react-icons/fi'
 import { Logo } from './logo'
 
 const siteConfig = {
   logo: Logo,
   seo: {
-    title: 'Saas UI',
-    description: 'The React component library for startups',
+    title: 'ShiftMate',
+    description: 'The Essential Shift Management Tool for Small Businesses',
   } as NextSeoProps,
   termsUrl: '#',
   privacyUrl: '#',
@@ -40,51 +40,51 @@ const siteConfig = {
   },
   footer: {
     copyright: (
-      <>
-        Built by{' '}
-        <Link href="https://twitter.com/Pagebakers">Eelco Wiersma</Link>
-      </>
+        <>
+          Developed by{' '}
+          <Link href="https://twitter.com/Pagebakers">Eelco Wiersma</Link>
+        </>
     ),
     links: [
       {
-        href: 'mailto:hello@saas-ui.dev',
+        href: 'mailto:hello@shiftmate.com',
         label: 'Contact',
       },
       {
-        href: 'https://twitter.com/saas_js',
-        label: <FaTwitter size="14" />,
+        href: 'https://facebook.com/shiftmate',
+        label: <FaFacebook size="14" />,
       },
       {
-        href: 'https://github.com/saas-js/saas-ui',
-        label: <FaGithub size="14" />,
+        href: 'https://instagram.com/shiftmate',
+        label: <FaInstagram size="14" />,
       },
     ],
   },
   signup: {
-    title: 'Start building with Saas UI',
+    title: 'Start Managing Shifts with ShiftMate',
     features: [
       {
         icon: FiCheck,
         title: 'Accessible',
-        description: 'All components strictly follow WAI-ARIA standards.',
+        description: 'ShiftMate strictly follows WAI-ARIA standards, ensuring it is accessible for all users.',
       },
       {
         icon: FiCheck,
-        title: 'Themable',
+        title: 'Customizable',
         description:
-          'Fully customize all components to your brand with theme support and style props.',
+            'Easily adapt ShiftMate to match your brand aesthetics with theme support and style props.',
       },
       {
         icon: FiCheck,
-        title: 'Composable',
+        title: 'Flexible',
         description:
-          'Compose components to fit your needs and mix them together to create new ones.',
+            'Craft your ShiftMate components to fit your needs and mix them together to create new functionality.',
       },
       {
         icon: FiCheck,
-        title: 'Productive',
+        title: 'Efficient',
         description:
-          'Designed to reduce boilerplate and fully typed, build your product at speed.',
+            'ShiftMate is designed to eliminate unnecessary tasks and increase your productivity, allowing you to manage shifts effortlessly.',
       },
     ],
   },

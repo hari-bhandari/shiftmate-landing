@@ -1,30 +1,25 @@
-import * as React from 'react'
-
 const faq = {
   title: 'Frequently asked questions',
-  // description: '',
   items: [
     {
-      q: 'How many products can I use Saas UI Pro for?',
+      q: 'How many staff members can I manage with ShiftMate?',
       a: (
-        <>
-          The single license can be used for one commercial application or SaaS
-          product and unlimited internal tools. You can buy as many licenses as
-          you need. <br /> The unlimited license does not have any restrictions.
-        </>
+          <>
+            ShiftMate does not limit the number of staff members you can manage. It's designed to scale with your business, whether you have 10 or 100 employees.
+          </>
       ),
     },
     {
-      q: 'Can I use Saas UI Pro for client work?',
-      a: "Yes, that's totally up to you, as long as it fits the license you purchase.",
+      q: 'Can I use ShiftMate across multiple business locations?',
+      a: "Absolutely! ShiftMate is designed to accommodate businesses with multiple locations. You can manage your staff and their shifts across all your business locations seamlessly.",
     },
     {
-      q: 'Can I use Saas UI Pro for Open Source projects?',
-      a: 'No currently not. A large part of Saas UI is already released under MIT license. We try to give back to the community as much as possible.',
+      q: 'Can ShiftMate be integrated with my existing HR system?',
+      a: 'ShiftMate is designed to be compatible with many HR systems. If you need help with integration or encounter any issues, our support team is ready to assist.',
     },
     {
-      q: 'Does Saas UI include Figma, Sketch or other design files?',
-      a: 'No, Saas UI does not include any design assets. Maintaining design resources costs a lot of extra effort. We believe small teams can move much faster by designing directly in code, with help of Storybooks.',
+      q: 'Does ShiftMate provide any training or support for new users?',
+      a: 'Yes, we provide comprehensive onboarding and continuous support to ensure you make the most of ShiftMate. Our aim is to make shift management as easy and efficient as possible for you.',
     },
   ],
 }
