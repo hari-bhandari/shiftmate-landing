@@ -41,8 +41,6 @@ const siteConfig = {
   footer: {
     copyright: (
         <>
-          Developed by{' '}
-          <Link href="https://twitter.com/Pagebakers">Eelco Wiersma</Link>
         </>
     ),
     links: [

@@ -48,7 +48,7 @@ const Login: NextPage = () => {
             <NextLink href="/">
               <Box
                 as={siteConfig.logo}
-                width="160px"
+                width="100px"
                 ms="4"
                 mb={{ base: 0, lg: 16 }}
               />
